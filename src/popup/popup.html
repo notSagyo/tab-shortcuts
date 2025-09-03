@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tab Shortcuts Config</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 10px;
+        background-color: #1e1e2e;
+        color: #cdd6f4;
+      }
+      .input-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 8px;
+      }
+      input {
+        width: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <b>Zen Browser only</b>
+    <div class="input-wrapper">
+      <label for="essentialsCount">Essential tabs count:</label>
+      <input
+        type="number"
+        id="essentialsCount"
+        min="0"
+        max="12"
+        value="0"
+        type="number"
+        inputmode="numeric"
+      />
+    </div>
+    <script src="./popup.js"></script>
+  </body>
+</html>

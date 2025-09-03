@@ -1,0 +1,7 @@
+{
+  "name": "tab-shortcuts",
+  "devDependencies": {
+    "@types/chrome": "^0.0.332"
+  },
+  "type": "module"
+}
